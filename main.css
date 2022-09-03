@@ -2,7 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+    font-family: poppins;
+    font-weight: 700;
+    font-style: italic;
     
 }
 
@@ -17,7 +19,6 @@ body{
 header{
     /* height: 70px; */
     background-color: lightblue;
-    border: 2px solid white;
 }
 .header{
     display: grid;
