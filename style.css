@@ -37,12 +37,12 @@ body {
   text-decoration: none;
   background-color: #395b64;
   color: white;
-  border: 2px solid black;
+  border: 2px solid #395b64;
 }
 
 .head-toggle a:hover {
   color: #395b64;
-  border: 2px solid black;
+  border: 2px solid #395b64;
 
   background-color: white;
 }
