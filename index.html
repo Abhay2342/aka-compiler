@@ -1,79 +1,51 @@
-<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/fevicon.png" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Online Compiler</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="icon" type="image/x-icon" href="img/fevicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Varela+Round&display=swap" rel="stylesheet">
-</head>
-
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header">
-            <div class="header-container1">
-                <div>
-                    <img src="#" alt="">
-                    <input type="submit" value="C">
-                </div>
-                <div>
-                    <img src="#" alt="">
-                    <input type="submit" value="C++">
-                </div>
-                <div>
-                    <img src="#" alt="">
-                    <input type="submit" value="Python">
-                </div>
-            </div>
-            <div class="coders">
-                <p>AKA-Coders</p>
-            </div>
+      <div class="head">
+        <div class="head-toggle">
+          <a href="#">C</a>
+          <a href="#">C++</a>
+          <a href="#">Python</a>
         </div>
+        <div class="coders">
+          <p>AKA-Coders</p>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="main-function">
+          <div class="up-nav">
+            <p>Code here</p>
+            <div>
+              <button>Save</button>
+              <button>Run</button>
+            </div>
+          </div>
+          <textarea name="" id="textarea-input"></textarea>
+        </div>
+        <div class="output-function">
+          <div class="up-nav up-nav2">
+            <p>Output</p>
+            <div>
+              <button>Clear</button>
+            </div>
+          </div>
+          <textarea name="" id="textarea-input"></textarea>
+        </div>
+      </div>
     </header>
-    <div class="main-container">
-        <div class="container-1">
-            <div class="abc">
-                <div class="codeHere">
-                    <p>Code Here</p>
-                </div>
-                <div class="codeHere-input">
-                    <img src="./img/darkMode.svg" alt="Moon" height="30px">
-                    <select name="" id="">
-                        <Option>File</Option>
-                        <Option>Open</Option>
-                        <Option>Save</Option>
-                    </select>
-                    <input type="submit" value="Run">
-                </div>
-                
-                
-            </div>
-
-            <div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-        </div>
-        <div class="container-2">
-            <div class="abc">
-                <div class="codeHere">
-                    <p>Output</p>
-                </div>
-                <div class="codeHere-input">
-                    <input type="submit" value="Clear">
-                </div>
-                
-                
-            </div>
-            <div>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-        </div>
-    </div>
-</body>
-
+  </body>
 </html>
