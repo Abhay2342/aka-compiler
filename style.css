@@ -87,12 +87,16 @@ body {
   /* display: flex; */
   margin: 0rem 0.1rem;
   padding: 0.2rem 1.5rem;
+  font-weight: 700;
   border: 1px solid #395b64;
+  background-color: #d2e3de;
+  border-radius: 3px;
 }
 
 .up-nav div button:hover {
-  background-color: #e7f6f2;
-  color: #395b64;
+  background-color: #395b64;
+  border-color: #e7f6f2;
+  color: #e7f6f2;
   cursor: pointer;
 }
 #textarea-input {
