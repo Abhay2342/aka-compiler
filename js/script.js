@@ -19,6 +19,6 @@ const compile = async () => {
 
 const output = async (res) => {
     var output_window = document.getElementById('textarea-output')
-    console.log(res['code'])
-    output_window.innerHTML += res['code']
+    console.log(res['out'])
+    output_window.innerHTML += res['out'] += "\n"
 }
