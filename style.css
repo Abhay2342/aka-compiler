@@ -40,17 +40,19 @@ body {
   border: 2px solid #395b64;
 }
 
-.head-toggle a:hover {
+.head-toggle a:hover, .coders a:hover {
   color: #395b64;
   border: 2px solid #395b64;
 
   background-color: white;
 }
-.coders p {
+.coders a {
   border-radius: 3px;
+  font-weight: 700;
   padding: 0.5rem 2rem;
   color: white;
   background-color: #395b64;
+  text-decoration: none;
 }
 .coders {
   margin-right: 4rem;
