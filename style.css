@@ -40,10 +40,9 @@ body {
   border: 2px solid #395b64;
 }
 
-.head-toggle a:hover, .coders a:hover {
+.head-toggle a:hover, .coders a:hover, .head-toggle a.current {
   color: #395b64;
   border: 2px solid #395b64;
-
   background-color: white;
 }
 .coders a {

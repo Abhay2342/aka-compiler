@@ -13,16 +13,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./img/fevicon.png" />
     <link rel="stylesheet" href="./style.css" />
-
     <title>Online Compiler</title>
+    <script src="./js/index.js"></script>
   </head>
   <body>
     <header>
       <div class="head">
         <div class="head-toggle">
-          <a href="#">C</a>
-          <a href="#">C++</a>
-          <a href="#">Python</a>
+          <a href="#" id="c" class=""  onclick="c()">C</a>
+          <a href="#" id="cplus" class="deactive" onclick="cplus()">C++</a>
+          <a href="#" id="python" class="deactive" onclick="python()">Python</a>
         </div>
         <div class="coders">
           <a href="./about-us.html">AKA-Coders</a>
@@ -31,7 +31,7 @@
       <div class="main-container">
         <div class="main-function">
           <div class="up-nav">
-            <p>Code here</p>
+            <p id="code_inp">Code in C</p>
             <div>
               <button>Save</button>
               <button onclick="compile()">Run</button>
