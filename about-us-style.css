@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
+    Liberation Mono, monospace !important;
+  padding: 0;
+  background: url("./img/bg-pic.jpg") center/cover no-repeat;
+}
+.about-us {
+  text-align: center;
+  /* border: 2px solid black; */
+  padding: 0.5rem 0rem;
+  border-radius: 0.4rem;
+  margin: 1rem;
+  color: black;
+  background: linear-gradient(135deg, white, rgb(130, 128, 128));
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid white; */
+  height: 80%;
+}
+
+.item {
+  /* background-color: transparent 30%; */
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, white, rgb(130, 128, 128));
+  width: 25rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-instagram {
+  /* Set the background color */
+  background: linear-gradient(to right, #ff8a00 0%, #dd4c4f 100%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  /* Make the text fill color value transparent so the masked background color comes through */
+  -webkit-text-fill-color: transparent;
+}
+.fa-linkedin-in {
+  color: #0077b5;
+}
+.fa-github {
+  color: black;
+}
+i {
+  font-size: 2rem;
+}
