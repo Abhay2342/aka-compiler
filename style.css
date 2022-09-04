@@ -109,6 +109,22 @@ body {
   font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
 }
 
+#textarea-output {
+  padding: 1rem;
+  width: 100%;
+  height: 80vh;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  background-color: #2c3333;
+  color: white;
+  outline: none;
+  line-height: 1.2rem;
+  letter-spacing: 0.08rem;
+  font-size: 1rem;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace !important;
+}
+
 .output-function {
   /* border: 2px solid black; */
   width: 50%;
