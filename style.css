@@ -85,11 +85,13 @@ body {
   /* display: flex; */
   margin: 0rem 0.1rem;
   padding: 0.2rem 1.5rem;
+  border: 1px solid #395b64;
 }
 
 .up-nav div button:hover {
   background-color: #e7f6f2;
   color: #395b64;
+  cursor: pointer;
 }
 #textarea-input {
   padding: 1rem;
